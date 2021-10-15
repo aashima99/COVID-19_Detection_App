@@ -49,9 +49,9 @@ The dataset for the project was gathered from two sources:
 
 
 ## METHODOLOGY OF THE PROJECT 
-<p align="center">
+
 ![Alt Text](/screenshots/Methodology.png)
-</p>
+
 
 ## IMPLEMENTATION AND BASIC METHODOLOGY
 
