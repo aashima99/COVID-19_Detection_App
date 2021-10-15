@@ -21,7 +21,7 @@ CT Scans        93%          93%      80%       95%
 3. [**METHODOLOGY OF THE PROJECT**](#methodology-of-the-project)
 4. [**IMPLEMENTATION AND BASIC METHODOLOGY**](#implementation-and-basic-methodology)
 5. [**EVALUATIONS AND RESULTS**](#evaluations-and-results)
-6. [**TECHNICAL CONCEPTS and DEEP LEARNING MODELS USED**](#technical-concepts-and-deep-learning-models-used)
+6. [**TECHNICAL CONCEPTS AND DEEP LEARNING MODELS USED**](#technical-concepts-and-deep-learning-models-used)
 
 
 ## Web Interface
@@ -45,6 +45,9 @@ The dataset for the project was gathered from two sources:
 1) Chest X-ray images (1000 images) were obtained from: https://github.com/ieee8023/covid-chestxray-dataset
 2) CT Scan images (750 images) were obtained from: https://github.com/UCSD-AI4H/COVID-CT/tree/master/Data-split 80% of the images were used for training the models and the remaining 20% for testing.
 
+
+## METHODOLOGY OF THE PROJECT 
+![Alt Text](/images/Methodology.PNG)
 
 
 ## IMPLEMENTATION AND BASIC METHODOLOGY
@@ -89,10 +92,8 @@ Few important results and plots that help estimate the accuracy of the models an
 ### Building the Flask App
 Now, I used the code created by me so far to build a Flask app by integrating particular segments of my code in certain flask functions.
 
-## METHODOLOGY OF THE PROJECT 
 
-
-## TECHNICAL CONCEPTS and DEEP LEARNING MODELS USED
+## TECHNICAL CONCEPTS AND DEEP LEARNING MODELS USED
 
 #### ImageNet 
 ImageNet is formally a project aimed at (manually) labeling and categorizing images into almost 22,000 separate object categories for the purpose of computer vision research.
