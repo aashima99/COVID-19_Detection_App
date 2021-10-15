@@ -1,5 +1,11 @@
 # COVID-19 DETECTION APP
-COVID-19 Detection based on Chest X-rays and CT Scans using four Transfer Learning algorithms: VGG16, ResNet50, InceptionV3, Xception. The models were trained for 500 epochs on around 1000 Chest X-rays and around 750 CT Scan images on Google Colab GPU. A Flask App is developed wherein user can upload Chest X-rays or CT Scans and get the output of possibility of COVID infection.
+
+COVID-19, or more commonly known as the Novel Coronavirus disease is a highly infectious disease that appeared in China towards the end of 2019. This disease is caused by SARS-CoV-2, a virus that belongs to the large family of coronaviruses. The disease first originated in Wuhan, China in December 2019 and soon became a global pandemic, spreading to more than 213 countries.
+The most common symptoms of COVID-19 are fever, dry cough, and tiredness. Other symptoms that people may experience include aches, pains, or difficulty in breathing. Most of these symptoms show signs of respiratory infections and lung abnormalities which can be detected by radiologists.
+Thus, it is possible to use Machine Learning algorithms to detect the disease from images of Chest X-rays and CT scans. Automated applications can be created to help support radiologists. 
+This project is an attempt to use four Deep Learning algorithms, namely: VGG16, ResNet50, InceptionV3 and Xception to detect Covid-19. 
+
+##### COVID-19 Detection based on Chest X-rays and CT Scans using four Transfer Learning algorithms: VGG16, ResNet50, InceptionV3, Xception. The models were trained for 500 epochs on around 1000 Chest X-rays and around 750 CT Scan images on Google Colab GPU. A Flask App is developed wherein user can upload Chest X-rays or CT Scans and get the output of possibility of COVID infection.
 
 After training, the accuracies acheived for the model are as follows:
 <pre>
@@ -14,8 +20,8 @@ CT Scans        93%          93%      80%       95%
 2. [**DATASET USED**](#dataset-used)
 3. [**EVALUATIONS AND RESULTS**](#evaluations-and-results)
 4. [**IMPLEMENTATION AND BASIC METHODOLOGY**](#implementation-and-basic-methodology)
-5. [**METHODOLOGY OF THE PROJECT**](#METHODOLOGY-OF-THE-PROJECT)
-6. [**TECHNICAL CONCEPTS and DEEP LEARNING MODELS USED**](#TECHNICAL-CONCEPTS-and-DEEP-LEARNING-MODELS-USED)
+5. [**METHODOLOGY OF THE PROJECT**](#methodology-of-the-project)
+6. [**TECHNICAL CONCEPTS and DEEP LEARNING MODELS USED**](#technical-concepts-and-deep-learning-models-used)
 
 
 ## Web Interface
@@ -40,19 +46,31 @@ The dataset for the project was gathered from two sources:
 2) CT Scan images (750 images) were obtained from: https://github.com/UCSD-AI4H/COVID-CT/tree/master/Data-split 80% of the images were used for training the models and the remaining 20% for testing.
 
 ## EVALUATIONS AND RESULTS
+
 ### Sample output of test images
+![Alt Text](/screenshots/sample_chest.PNG)
+![Alt Text](/screenshots/sample_ct.PNG)
 
 ### Classification Reports for Chest X-rays: VGG, InceptionV3, ResNet50, Xception
+![Alt Text](/screenshots/Classification_reports.PNG)
 
 ### Confusion Matrix for Chest X-rays: VGG, InceptionV3, ResNet50, Xception
+![Alt Text](/screenshots/vgg_chest_cm.PNG)
+![Alt Text](/screenshots/inception_chest_cm.PNG)
+![Alt Text](/screenshots/resnet_chest_cm.PNG)
+![Alt Text](/screenshots/xception_chest_cm.PNG)
 
 ### Classification Reports for CT Scans: VGG, InceptionV3, ResNet50, Xception
+![Alt Text](/screenshots/Classification_reports_ctscan.PNG)
 
 ### Confusion Matrix for CT Scans: VGG, InceptionV3, ResNet50, Xception
-
-
+![Alt Text](/screenshots/vgg_ct_cm.PNG)
+![Alt Text](/screenshots/inception_ct_cm.PNG)
+![Alt Text](/screenshots/resnet_ct_cm.PNG)
+![Alt Text](/screenshots/xception_ct_cm.PNG)
 
 ## IMPLEMENTATION AND BASIC METHODOLOGY
+
 
 ## METHODOLOGY OF THE PROJECT 
 
