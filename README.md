@@ -1,0 +1,2 @@
+# COVID-19_Detection_App
+COVID-19 Detection based on Chest X-rays and CT Scans using four Transfer Learning algorithms: VGG16, ResNet50, InceptionV3, Xception. The models were trained for 500 epochs on around 1000 Chest X-rays and around 750 CT Scan images on Google Colab GPU.  A Flask App is developed wherein user can upload Chest X-rays or CT Scans and get the output of possibility of COVID infection.
