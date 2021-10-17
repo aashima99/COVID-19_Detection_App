@@ -28,17 +28,33 @@ CT Scans        93%          93%      80%       95%
 
 ## Web Interface
 
-### Home Dashboard 
-![Alt Text](/images/.png)
+## Home Dashboard 
+
+![Alt Text](/screenshots/SS1.PNG)
 
 
-### Preventions
-![Alt Text](/images/.png)
 
 
-### FAQs
-![Alt Text](/images/.png)
+![Alt Text](/screenshots/SS2.PNG)
 
+
+
+
+![Alt Text](/screenshots/SS3.PNG)
+
+
+
+## Results and Evaluations for different samples using different transfer learning techniques
+
+![Alt Text](/screenshots/SS4.PNG)
+
+
+
+![Alt Text](/screenshots/SS5.PNG)
+
+
+
+![Alt Text](/screenshots/SS6.PNG)
 
 ## DATASET USED
 
