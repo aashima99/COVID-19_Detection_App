@@ -28,6 +28,10 @@ CT Scans        93%          93%      80%       95%
 
 ## Web Interface
 
+A video containing all the functionalities and details of the project.
+
+https://drive.google.com/file/d/13eqKjQEtOC3nsjhMzNncqSSFEIs7tDuI/view?usp=sharing
+
 ## Home Dashboard 
 
 ![Alt Text](/screenshots/SS1.PNG)
